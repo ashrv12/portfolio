@@ -15,3 +15,5 @@ Finished connecting database, next steps are:
 - [ ] Manually insert examples
 - [ ] Render them in UI
 - [ ] Push and make sure it all works
+
+1hr1min49sec
