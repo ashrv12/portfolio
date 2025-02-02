@@ -3,7 +3,7 @@
 ## Todo
 
 - [x] Setup Database and data model
-- [ ] Move folder open state to URL
+- [x] Move folder open state to URL
 - [ ] Add authentication
 - [ ] Add file uploading
 
