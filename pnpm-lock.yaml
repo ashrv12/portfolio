@@ -45,7 +45,7 @@ importers:
         specifier: ^15.1.6
         version: 15.1.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       posthog-js:
-        specifier: ^1.211.2
+        specifier: ^1.215.1
         version: 1.215.1
       react:
         specifier: ^19.0.0
