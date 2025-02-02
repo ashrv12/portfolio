@@ -8,7 +8,6 @@ import {
 } from "~/server/db/schema";
 import { db } from "~/server/db";
 import { eq } from "drizzle-orm";
-import { auth } from "@clerk/nextjs/server";
 
 export const QUERIES = {
   getFolders: function (folderId: number) {
@@ -52,9 +51,12 @@ export const MUTATIONS = {
       name: string;
       size: number;
       url: string;
+      parent: number;
     };
     userId: string;
   }) {
-    return await db.insert(FilesSchema).values({ ...input.file, parent: 1 });
+    return await db
+      .insert(FilesSchema)
+      .values({ ...input.file, parent: input.file.parent });
   },
 };
