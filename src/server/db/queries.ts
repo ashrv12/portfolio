@@ -3,9 +3,12 @@ import "server-only";
 import {
   files_table as FilesSchema,
   folders_table as FoldersSchema,
+  DB_FileType,
+  DB_FolderType,
 } from "~/server/db/schema";
 import { db } from "~/server/db";
 import { eq } from "drizzle-orm";
+import { auth } from "@clerk/nextjs/server";
 
 export const QUERIES = {
   getFolders: function (folderId: number) {
@@ -40,5 +43,18 @@ export const QUERIES = {
     }
 
     return parents;
+  },
+};
+
+export const MUTATIONS = {
+  createFile: async function (input: {
+    file: {
+      name: string;
+      size: number;
+      url: string;
+    };
+    userId: string;
+  }) {
+    return await db.insert(FilesSchema).values({ ...input.file, parent: 1 });
   },
 };
