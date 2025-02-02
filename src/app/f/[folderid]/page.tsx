@@ -1,6 +1,6 @@
 import {
-  files as FilesSchema,
-  folders as FoldersSchema,
+  files_table as FilesSchema,
+  folders_table as FoldersSchema,
 } from "~/server/db/schema";
 import { db } from "~/server/db";
 import DriveContents from "../../drive-contents";
