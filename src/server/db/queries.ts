@@ -3,8 +3,6 @@ import "server-only";
 import {
   files_table as FilesSchema,
   folders_table as FoldersSchema,
-  DB_FileType,
-  DB_FolderType,
 } from "~/server/db/schema";
 import { db } from "~/server/db";
 import { eq } from "drizzle-orm";
