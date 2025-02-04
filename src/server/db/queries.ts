@@ -6,20 +6,23 @@ import {
 } from "~/server/db/schema";
 import { db } from "~/server/db";
 import { eq } from "drizzle-orm";
+import { Files } from "lucide-react";
 
 export const QUERIES = {
   getFolders: function (folderId: number) {
     return db
       .select()
       .from(FoldersSchema)
-      .where(eq(FoldersSchema.parent, folderId));
+      .where(eq(FoldersSchema.parent, folderId))
+      .orderBy(FoldersSchema.id);
   },
 
   getFiles: function (folderId: number) {
     return db
       .select()
       .from(FilesSchema)
-      .where(eq(FilesSchema.parent, folderId));
+      .where(eq(FilesSchema.parent, folderId))
+      .orderBy(FilesSchema.id);
   },
 
   getAllParentsForFolder: async function (folderId: number) {
