@@ -2,11 +2,11 @@ import "server-only";
 
 import {
   files_table as FilesSchema,
+  folders_table,
   folders_table as FoldersSchema,
 } from "~/server/db/schema";
 import { db } from "~/server/db";
-import { eq } from "drizzle-orm";
-import { Files } from "lucide-react";
+import { eq, isNull, and } from "drizzle-orm";
 
 export const QUERIES = {
   getFolders: function (folderId: number) {
@@ -49,6 +49,16 @@ export const QUERIES = {
       .select()
       .from(FoldersSchema)
       .where(eq(FoldersSchema.id, folderId));
+    return folder[0];
+  },
+
+  getRootFolderForUser: async function (userId: string) {
+    const folder = await db
+      .select()
+      .from(FoldersSchema)
+      .where(
+        and(eq(FoldersSchema.ownerId, userId), isNull(FoldersSchema.parent)),
+      );
     return folder[0];
   },
 };
