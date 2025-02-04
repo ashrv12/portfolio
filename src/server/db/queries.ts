@@ -2,7 +2,6 @@ import "server-only";
 
 import {
   files_table as FilesSchema,
-  folders_table,
   folders_table as FoldersSchema,
 } from "~/server/db/schema";
 import { db } from "~/server/db";
@@ -76,5 +75,38 @@ export const MUTATIONS = {
     return await db
       .insert(FilesSchema)
       .values({ ...input.file, ownerId: input.userId });
+  },
+
+  onboardUser: async function (userId: string) {
+    const rootFolder = await db
+      .insert(FoldersSchema)
+      .values({
+        name: "root",
+        parent: null,
+        ownerId: userId,
+      })
+      .$returningId();
+
+    const rootFolderId = rootFolder[0]!.id;
+
+    await db.insert(FoldersSchema).values([
+      {
+        name: "Videos",
+        parent: rootFolderId,
+        ownerId: userId,
+      },
+      {
+        name: "Thumbnails",
+        parent: rootFolderId,
+        ownerId: userId,
+      },
+      {
+        name: "Assets",
+        parent: rootFolderId,
+        ownerId: userId,
+      },
+    ]);
+
+    return rootFolderId;
   },
 };

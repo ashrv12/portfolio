@@ -9,4 +9,4 @@
 - [x] Add sort to the files and folders
 - [x] Add analytics
 - [x] Add delete
-- [ ] Real homepage + onboarding
+- [x] Real homepage + onboarding
