@@ -34,13 +34,3 @@ body {
 	font-family: 'Inter', sans-serif;
 	margin: 0;
 }
-
-h1 {
-	color: var(--primary-font-color);
-	font-size: 2em;
-}
-
-p {
-	color: var(--primary-font-color);
-	line-height: 1.6;
-}
