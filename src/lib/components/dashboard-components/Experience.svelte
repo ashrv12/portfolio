@@ -7,7 +7,7 @@
 			<h2 class="jetbrains-mono border-b-[1px] text-sm font-bold md:text-lg">
 				DevSecOps Engineer <span class="font-black text-[#C60F7B]">[Trade Development Bank]</span>
 			</h2>
-			<p class="text-xs">
+			<p class="text-xs md:text-sm">
 				Worked on bare metal Kubernetes and Docker deployment environments building pipelines and
 				fullstack applications.
 			</p>
@@ -17,7 +17,7 @@
 			<h2 class="jetbrains-mono border-b-[1px] text-sm font-bold md:text-lg">
 				Software Engineer <span class="font-black text-[#C60F7B]">[Pinecone Academy]</span>
 			</h2>
-			<p class="text-xs">
+			<p class="text-xs md:text-sm">
 				Built student teacher CMS based learning platform and lead multiple teams of interns as head
 				project lead whilst also participating in development.
 			</p>
@@ -27,7 +27,7 @@
 			<h2 class="jetbrains-mono border-b-[1px] text-sm font-bold md:text-lg">
 				Frontend Developer <span class="font-black text-[#C60F7B]">[START]</span>
 			</h2>
-			<p class="text-xs">
+			<p class="text-xs md:text-sm">
 				Worked as a frontend developer on multiple websites and studied Graphics design from a
 				professional Graffiti artist.
 			</p>
