@@ -33,4 +33,9 @@ body {
 	color: var(--primary-font-color);
 	font-family: 'Inter', sans-serif;
 	margin: 0;
+	cursor: url('./kirby-cursor-auto.png'), auto;
+}
+
+a:hover {
+	cursor: url('./kirby-cursor-pointer.png'), pointer;
 }
