@@ -1,7 +1,7 @@
 <div
 	class="col-start-1 col-end-3 row-start-3 row-end-6 flex flex-col justify-between rounded-sm bg-[#99E8CE] p-2 text-[var(--primary-bg-color)]"
 >
-	<h1 class="text-3xl font-bold sm:text-4xl">Work Experience</h1>
+	<h1 class="text-2xl font-bold sm:text-4xl">Work Experience</h1>
 	<div class="flex flex-col gap-2">
 		<div>
 			<h2 class="jetbrains-mono border-b-[1px] text-xs font-bold sm:text-sm md:text-lg">
