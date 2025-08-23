@@ -15,4 +15,5 @@ Fonts used: **[Inter]**, **[JetBrains Mono]**
 Always open to discussing new ideas.
 
 🌐 Connect with me on [Linkedin](https://www.linkedin.com/in/ariyashiravb/)
-✉️ Reach out at [bshirav@gmail.com]
+
+✉️ Reach out at [mail](bshirav@gmail.com)
