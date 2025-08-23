@@ -6,6 +6,6 @@
 		<h2 class="">🇺🇸 <u>English</u> <span class="font-black">[Fluent]</span></h2>
 		<h2 class="">🇩🇪 <u>German</u> <span class="font-black">[B2]</span></h2>
 		<h2 class="">🇲🇳 <u>Mongolian</u> <span class="font-black">[Fluent]</span></h2>
-		<h2 class="font-bold">📍Ulaanbaatar, Mongolia</h2>
+		<h2 class="font-bold">📍 Ulaanbaatar, Mongolia</h2>
 	</div>
 </div>
