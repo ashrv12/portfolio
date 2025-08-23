@@ -1,3 +1,5 @@
+## 世界は怖い
+
 ![Bocchi](https://raw.githubusercontent.com/ashrv12/portfolio/refs/heads/main/src/lib/assets/bocchi-transparent.png)
 
 # 💻 Welcome to my portfolio repo
