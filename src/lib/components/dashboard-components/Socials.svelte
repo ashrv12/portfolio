@@ -1,7 +1,7 @@
 <div
 	class="col-start-4 col-end-6 row-start-3 row-end-4 flex flex-col justify-between rounded-sm bg-[#733B73] p-2"
 >
-	<h1 class="text-2xl font-bold sm:text-4xl">Socials</h1>
+	<h1 class="text-xl font-bold sm:text-4xl">Socials</h1>
 	<div
 		class="jetbrains-mono flex w-full flex-col gap-2 text-sm font-bold sm:flex-row sm:gap-6 md:text-lg"
 	>

@@ -1,7 +1,7 @@
 <div
 	class="col-start-3 col-end-6 row-start-4 row-end-6 flex flex-col justify-between rounded-sm bg-[#61212D] p-2"
 >
-	<h1 class="text-2xl font-bold sm:text-4xl">Skills</h1>
+	<h1 class="text-xl font-bold sm:text-4xl">Skills</h1>
 
 	<div class="jetbrains-mono flex flex-col gap-3 text-xs sm:text-base">
 		<div class="flex items-center justify-between rounded-md border-t-[1px] border-b-[1px] px-3">

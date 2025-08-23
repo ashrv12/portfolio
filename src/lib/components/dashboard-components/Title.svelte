@@ -1,7 +1,7 @@
 <div
 	class="col-start-1 col-end-4 row-start-1 row-end-3 flex flex-col justify-between rounded-sm bg-[#c3dedd] p-2 text-(--primary-bg-color)"
 >
-	<h1 class="text-2xl font-bold sm:text-4xl">DevSecOps Engineer</h1>
+	<h1 class="text-xl font-bold sm:text-4xl">DevSecOps Engineer</h1>
 
 	<div class="">
 		<h2 class="text-xl font-thin">
