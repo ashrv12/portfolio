@@ -8,5 +8,10 @@
 		src="./earth.svg"
 		alt="earth"
 	/>
+	<img
+		class="absolute top-[45%] left-1/2 z-2 h-[30px] w-auto -translate-x-1/2 -translate-y-1/2 object-scale-down"
+		alt="takopi"
+		src="./takopi.png"
+	/>
 	<Dashboard />
 </main>
