@@ -3,6 +3,6 @@
 
 <main class="h-dvh w-dvw">
 	<div class="">
-		<a href="./devlogs/pinecone">Pinecone</a>
+		<h1>Article of pinecone</h1>
 	</div>
 </main>
