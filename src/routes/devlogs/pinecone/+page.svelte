@@ -5,7 +5,7 @@
 	<div class="w-full max-w-[75%] border rounded-lg p-4 flex flex-col gap-y-10">
 		<div class="flex items-center gap-x-2">
 			<a class="text-3xl font-thin" href=".">{`<<`} DevLogs</a>
-			<img alt="sushi" src="../../kirby-sushi.png" class="h-[60px]" />
+			<img alt="sushi" src="./kirby-sushi.png" class="h-[60px]" />
 		</div>
 		<img alt="banner" src="../pinecone-banner.gif" class="h-[250px] object-cover w-full rounded-md"/>
 
