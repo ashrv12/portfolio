@@ -1,13 +1,15 @@
 <script>
+	import { base } from "$app/paths";
+
 </script>
 
 <main class="w-dvw flex justify-center py-2 text-xl">
 	<div class="w-full max-w-[75%] border rounded-lg p-4 flex flex-col gap-y-10">
 		<div class="flex items-center gap-x-2">
 			<a class="text-3xl font-thin" href=".">{`<<`} DevLogs</a>
-			<img alt="sushi" src="./kirby-sushi.png" class="h-[60px]" />
+			<img alt="sushi" src="{base}/kirby-sushi.png" class="h-[60px]" />
 		</div>
-		<img alt="banner" src="../pinecone-banner.gif" class="h-[250px] object-cover w-full rounded-md"/>
+		<img alt="banner" src="{base}/pinecone-banner.gif" class="h-[250px] object-cover w-full rounded-md"/>
 
 		<h1 class="text-4xl font-semibold">Work Experience</h1>
 
@@ -39,13 +41,13 @@
 		<!-- tech and skills used -->
 		<h1 class="text-4xl font-semibold">Skills required</h1>
 		<div class="flex px-4 gap-x-4 w-full">
-			<img src="../../docker.svg" alt="docker" class="w-[70px]" />
-			<img src="../../graphql.svg" alt="graphql" class="w-[70px]" />
-			<img src="../../mongodb.svg" alt="mongodb" class="w-[70px]" />
-			<img src="../../react.svg" alt="react" class="w-[70px]" />
-			<img src="../../typescript.svg" alt="typescript" class="w-[70px]" />
-			<img src="../../nodejs.svg" alt="nodejs" class="w-[70px]" />
-			<img src="../../bun.svg" alt="bun" class="w-[70px]" />
+			<img src="{base}/docker.svg" alt="docker" class="w-[70px]" />
+			<img src="{base}/graphql.svg" alt="graphql" class="w-[70px]" />
+			<img src="{base}/mongodb.svg" alt="mongodb" class="w-[70px]" />
+			<img src="{base}/react.svg" alt="react" class="w-[70px]" />
+			<img src="{base}/typescript.svg" alt="typescript" class="w-[70px]" />
+			<img src="{base}/nodejs.svg" alt="nodejs" class="w-[70px]" />
+			<img src="{base}/bun.svg" alt="bun" class="w-[70px]" />
 		</div>
 
 	</div>
