@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <div
 	class="col-start-4 col-end-6 row-start-3 row-end-4 flex flex-col justify-between rounded-sm bg-[#733B73] p-2"
 >
@@ -41,7 +45,7 @@
 		</a>
 
 		<!-- Stories and devlogs -->
-		<a target="_blank" href="/devlogs" class="group relative z-0 flex items-center gap-1">
+		<a target="_blank" href="devlogs" class="group relative z-0 flex items-center gap-1">
 			<img src="./itsfine.jpeg" class="h-[1.5rem] sm:h-[2.3rem]" alt="linkedin" />
 			<h2 class="text-xs sm:text-base">Dev Logs (CLICK ME!!!)</h2>
 		</a>
