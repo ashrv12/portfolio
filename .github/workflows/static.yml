@@ -27,7 +27,6 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
 
-      # I deploy and build using Deno as my runtime, but you may pick and choose
       - name: Install dependencies
         run: bun install
 
