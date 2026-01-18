@@ -25,16 +25,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
+      - uses: oven-sh/setup-bun@v2
 
       # I deploy and build using Deno as my runtime, but you may pick and choose
       - name: Install dependencies
-        run: deno install
+        run: bun install
 
       - name: Build the SvelteKit app statically
-        run: deno run build
+        run: bun run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
