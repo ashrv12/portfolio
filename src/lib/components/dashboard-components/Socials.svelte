@@ -39,5 +39,11 @@
 				<img src="linkedin-profile.png" class="w-full" alt="linkedin" />
 			</div>
 		</a>
+
+		<!-- Stories and devlogs -->
+		<a target="_blank" href="/devlogs" class="group relative z-0 flex items-center gap-1">
+			<img src="./itsfine.jpeg" class="h-[1.5rem] sm:h-[2.3rem]" alt="linkedin" />
+			<h2 class="text-xs sm:text-base">Dev Logs (CLICK ME!!!)</h2>
+		</a>
 	</div>
 </div>

@@ -5,6 +5,14 @@
 	<div class="flex flex-col gap-2">
 		<div>
 			<h2 class="jetbrains-mono border-b-[1px] text-xs font-bold sm:text-sm md:text-lg">
+				DevOps Tech Lead <span class="font-black text-[#C60F7B]">[@M-Bank]</span>
+			</h2>
+			<p class="hidden text-xs sm:block md:text-sm">
+				Oh boy did I overestimate the so called first ever digital "Neo" Bank of Mongolia.
+			</p>
+		</div>
+		<div>
+			<h2 class="jetbrains-mono border-b-[1px] text-xs font-bold sm:text-sm md:text-lg">
 				DevSecOps Engineer <span class="font-black text-[#C60F7B]">[@Trade Development Bank]</span>
 			</h2>
 			<p class="hidden text-xs sm:block md:text-sm">
