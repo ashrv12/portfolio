@@ -1,17 +1,12 @@
 <script lang="ts">
-	import Dashboard from '$lib/components/Dashboard.svelte';
+	import Introduction from "$lib/components/Introduction.svelte";
+
 </script>
 
-<main class="relative flex h-dvh w-dvw items-center justify-center">
-	<img
-		class="absolute top-1/2 left-1/2 z-1 h-[100px] w-[100px] -translate-x-1/2 -translate-y-1/2"
-		src="./earth.svg"
-		alt="earth"
-	/>
-	<img
-		class="absolute top-[45%] left-1/2 z-2 h-[30px] w-auto -translate-x-1/2 -translate-y-1/2 object-scale-down"
-		alt="takopi"
-		src="./takopi.png"
-	/>
-	<Dashboard />
+<!-- this is just a layout main container (our outermost layer) -->
+<main class="relative flex flex-col h-dvh w-dvw items-center overflow-y-scroll px-[20px] py-[30px]">
+<!-- Start of the content container -->
+	<div class="w-full">
+		<Introduction />
+	</div>
 </main>
