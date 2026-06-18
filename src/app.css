@@ -1,31 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import 'tailwindcss';
 
-@font-face {
-	font-family: 'Bagnard';
-	src: url('/fonts/BagnardSans.otf') format('otf');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap; /* Optional: Helps with font loading experience */
-}
-
-.jetbrains-mono {
-	font-family: 'JetBrains Mono', monospace;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
-
 @theme {
-	--color-primary: #151515;
-	--color-primary-font: #e9ebdf;
+	--font-sans: 'Figtree', sans-serif;
+	--font-mono: 'DM Mono', monospace;
+	--color-primary: #151516;
+	--color-primary-font: #e9e9ea;
 }
 
 :root {
-	--primary-bg-color: #151515; /* Black for background */
-	--primary-font-color: #e9ebdf; /* White for font */
+	--primary-bg-color: #151516; /* Black for background */
+	--primary-font-color: #e9e9ea; /* White for font */
 
-	--secondary-bg-color: #e9ebdf;
-	--secondary-font-color: #151515;
+	--secondary-bg-color: #e9e9ea;
+	--secondary-font-color: #151516;
+
+	--color-secondary: #9b9b9b;
 }
 
 body {
