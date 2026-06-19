@@ -14,20 +14,20 @@
     <!-- name and date -->
     <div class="flex flex-col w-full gap-3">
         <div class="flex w-full justify-between items-end">
-            <h1 class="font-sans font-medium text-lg sm:text-3xl">DevSecOps Engineer.</h1>
+            <h1 class="font-sans font-medium text-lg">DevSecOps Engineer.</h1>
 
-            <h4 class="font-mono font-light text-sm sm:text-xl"><span class="text-[var(--color-secondary)]">[</span> {date} <span class="text-[var(--color-secondary)]">]</span></h4>
+            <h4 class="font-mono font-light text-sm"><span class="text-[var(--color-secondary)]">[</span> {date} <span class="text-[var(--color-secondary)]">]</span></h4>
         </div>
         <div>
-            <h4 class="font-mono font-light text-sm sm:text-xl"><span class="text-[var(--color-secondary)]">[ ##### ]</span>shirav.b</h4>
+            <h4 class="font-mono font-light text-sm"><span class="text-[var(--color-secondary)]">[ ##### ]</span>shirav.b</h4>
         </div>
     </div>
 
     <!-- introduction begins here -->
     <div class="flex flex-col gap-3">
-        <h1 class="font-sans font-medium text-lg sm:text-3xl"><span class="text-[var(--color-secondary)]">[ # ]</span> Introduction</h1>
+        <h1 class="font-sans font-medium text-lg"><span class="text-[var(--color-secondary)]">[ # ]</span> Introduction</h1>
 
-        <p class="font-mono font-light text-sm sm:text-xl sm:w-[45%]">
+        <p class="font-mono font-light text-sm sm:w-[45%]">
             I specialize in systems / architectural design. 
             Rust is my day to day language of choice and I am CKS certified. 
             I always strive for peak efficiency in all aspects.
