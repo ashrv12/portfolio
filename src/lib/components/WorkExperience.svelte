@@ -15,7 +15,7 @@
         </h3>
 
         <h3 class="font-mono font-light text-sm sm:w-[45%] pl-3">
-            <span class="text-[var(--color-secondary)]">[*]</span> DevSecOps Tech Lead at M-Bank.
+            <span class="text-[var(--color-secondary)]">[*]</span> DevSecOps Tech Lead [ Merchant Division ] at M-Bank.
         </h3>
 
     </div>
