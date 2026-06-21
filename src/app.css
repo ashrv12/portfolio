@@ -30,3 +30,46 @@ body {
 a:hover {
 	cursor: url('/kirby-cursor-pointer.png'), pointer;
 }
+
+/* 1. The outer span handles the background sweep */
+.highlight-bg {
+	display: inline;
+	background-image: linear-gradient(to right, var(--secondary-bg-color), var(--secondary-bg-color));
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 100%;
+
+	animation: bgReveal 500ms ease-in-out forwards;
+}
+
+/* 2. The inner span handles the text color wipe */
+.highlight-text {
+	display: inline;
+	/* Create a sharp 50/50 split gradient stretched to 200% width */
+	background-image: linear-gradient(
+		to right,
+		var(--secondary-font-color) 50%,
+		var(--primary-font-color) 50%
+	);
+	background-size: 200% 100%;
+	background-position: 100% 0; /* Start with the light font color visible */
+
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent; /* Makes the gradient font color visible */
+
+	animation: textReveal 500ms ease-in-out forwards;
+}
+
+/* 3. Both animations run in perfect sync */
+@keyframes bgReveal {
+	to {
+		background-size: 100% 100%;
+	}
+}
+
+@keyframes textReveal {
+	to {
+		background-position: 0% 0%;
+	} /* Shifts the dark font color into view */
+}
