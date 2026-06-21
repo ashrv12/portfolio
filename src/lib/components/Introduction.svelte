@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Highlighter from "./highlighter.svelte";
+
     // Format options to force 2-digit padded years, months, and days
     const formatter = new Intl.DateTimeFormat('en-ZA', { 
         year: 'numeric', 
@@ -28,7 +30,7 @@
         <h1 class="font-sans font-medium text-lg"><span class="text-[var(--color-secondary)]">[ # ]</span> Introduction</h1>
 
         <p class="font-mono font-light text-sm sm:w-[45%]">
-            I specialize in systems / architectural design. 
+            <Highlighter>I specialize in systems / architectural design. </Highlighter>
             Rust is my day to day language of choice and I am CKS certified. 
             I always strive for peak efficiency in all aspects.
         </p>

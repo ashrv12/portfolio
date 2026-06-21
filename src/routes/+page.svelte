@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Introduction from "$lib/components/Introduction.svelte";
+	import WorkExperience from "$lib/components/WorkExperience.svelte";
 
 </script>
 
@@ -8,5 +9,9 @@
 <!-- Start of the content container -->
 	<div class="w-full">
 		<Introduction />
+		
+		<h5 class="text-[var(--color-secondary)] font-medium text-lg">---</h5>
+
+		<WorkExperience />
 	</div>
 </main>
